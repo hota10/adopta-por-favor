@@ -1,0 +1,182 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1, h2, h3 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #693c23;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 32px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Estilos de la sección del héroe */
+  #hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+  }
+  
+  .hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #693c23;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #531d0f;
+  }
+  
+  /* Estilos de la sección "Sobre Nosotros" */
+  #about {
+    background-color: #fff;
+    padding: 60px 0;
+  }
+  
+  /* Estilos de la sección "Mascotas Disponibles" */
+  #pets {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+  }
+  
+  .pet-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pet-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .pet-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  /* Estilos de la sección "Contacto" */
+  #contact {
+    background-color: #fff;
+    padding: 60px 0;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form textarea {
+    height: 120px;
+  }
+  
+  form .btn {
+    width: auto;
+    padding: 10px 20px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #693c23;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #fff;
+  }
+  
+  

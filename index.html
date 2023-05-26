@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopción de Mascotas</title>
+  <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+  <header>
+    <h1>Adopción de Mascotas</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre Nosotros</a></li>
+        <li><a href="#pets">Mascotas Disponibles</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h2>¡Dale un hogar a una mascota necesitada!</h2>
+      <p>Adopta una mascota y cambia su vida para siempre.</p>
+      <a href="#contact" class="btn">Adoptar ahora</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos una organización dedicada a la adopción de mascotas rescatadas. Nuestro objetivo es encontrar hogares amorosos y permanentes para los animales que hemos rescatado.</p>
+      <p>Todas nuestras mascotas están debidamente atendidas, vacunadas y esterilizadas. Trabajamos incansablemente para brindarles una segunda oportunidad y asegurarnos de que sean adoptadas por familias responsables.</p>
+    </div>
+  </section>
+
+  <section id="pets">
+    <div class="container">
+      <h2>Mascotas Disponibles</h2>
+      <p>¡Estas son algunas de las adorables mascotas que están buscando un hogar!</p>
+      <div class="pet-gallery">
+        <div class="pet-card">
+          <img src="perro1.jpg" alt="Perro">
+          <h3>martin</h3>
+          <p>Edad: 3 años</p>
+          <p>Raza: Raza de la mascota</p>
+          <a href="#contact" class="btn">Adoptar</a>
+        </div>
+        <div class="pet-card">
+          <img src="gato1.jpg" alt="Gato">
+          <h3>milo</h3>
+          <p>Edad: 1 año</p>
+          <p>Raza: Raza de la mascota</p>
+          <a href="#contact" class="btn">Adoptar</a>
+        </div>
+        <!-- Agregar más tarjetas de mascotas -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Si estás interesado en adoptar una mascota o tienes alguna pregunta, contáctanos:</p>
+      <form action="#" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Adopción de Mascotas. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
